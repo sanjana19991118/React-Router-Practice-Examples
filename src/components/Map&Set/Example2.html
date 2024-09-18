@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Javascript Maps</h1>
+    <h2>The Set() Method</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      const fruits = new Map();
+
+      // Set Map Values
+      fruits.set("apples", 500);
+      fruits.set("bananas", 300);
+      fruits.set("oranges", 200);
+      
+      let numb = fruits.get("apples");
+      document.getElementById("demo").innerHTML = "there are " + numb + " apples."
+
+    </script>
+  </body>
+</html>
