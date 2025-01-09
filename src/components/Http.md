@@ -152,14 +152,14 @@ syn message to server
 
 server to client
 syn-ack
-acknowledge he connecion request from the server
+acknowledge he connection request from the server
 
 client to server
 ack saying yes
 
 3 way hand shake
 
-1. The clien sends a SYN segment with the initial sequesnce #9001
+1. The client sends a SYN segment with the initial sequesnce #9001
    ack #0
 
 2. server replies with SYN-ACK

@@ -2,7 +2,8 @@
 // import SampleMenu from "./SampleMenu";
 import "./App.css";
 // import MyComponent from "../src/components/Routing/Interceptors/MyComponent.js";
-import MyInterceptor from "./components/Routing/Interceptors/MyInterceptor.js";
+// import MyInterceptor from "./components/Routing/Interceptors/MyInterceptor.js";
+import UseFormTwo from "./components/useForm/UseFormTwo.js";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <SampleMenu /> */}
       {/* <Challenge /> */}
       {/* <MyComponent /> */}
-      <MyInterceptor />
+      {/* <MyInterceptor /> */}
+      <UseFormTwo />
     </div>
   );
 }
