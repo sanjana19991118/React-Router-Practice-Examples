@@ -17,9 +17,9 @@ SignalR enables server-side code to push content to clients instantaneously. It 
 - **Hubs**: A high-level pipeline that allows you to call methods on the client from the server.
 - **Transports**: Automatically uses the best available transport method
 
-### Usage
+### Frontend
 
-## Frontend
+## Usage
 
 1. Create a connection and start it:
 
@@ -50,7 +50,7 @@ connection.invoke("SendMessage", user, message)
 event.preventDefault();
 });
 
-## Backend
+### Backend
 
 # Back-End Installation and Usage
 
